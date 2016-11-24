@@ -39,5 +39,6 @@ var $plugins =
 {"name":"TMSkillCostEx","status":true,"description":"ＭＰやＴＰの代わりにＨＰやアイテムを消費するスキルを\n設定できるようになります。","parameters":{"hpVNumberId":"0","mpVNumberId":"0","ignoreEnemyItemCost":"1"}},
 {"name":"TMCostShow","status":true,"description":"ＭＰ消費とＴＰ消費が両方設定されたスキルのコストを\n無理やり両方表示します。","parameters":{"mpCostHeader":"MP","tpCostHeader":"TP","conjunction":"/","costWidthText":"000","maxCostNum":"2","---TMSkillCostEx---":"以下はTMSkillCostEx併用時に利用","hpCostHeader":"HP","expCostHeader":"EXP","expCostFooter":"","goldCostHeader":"","goldCostFooter":"G","hpCostColor":"21","expCostColor":"16","goldCostColor":"0"}},
 {"name":"CounterExtend","status":true,"description":"反撃拡張プラグイン","parameters":{"反撃コスト消費":"OFF","コスト不足で失敗":"OFF"}},
-{"name":"BMSP_EventBeforeAction","status":true,"description":"戦闘アクション実行前にコモンイベントを起動します。","parameters":{}}
+{"name":"BMSP_EventBeforeAction","status":true,"description":"戦闘アクション実行前にコモンイベントを起動します。","parameters":{}},
+{"name":"EmpBtMesNonView","status":true,"description":"【MMP ver.1.1】戦闘メッセージが空の場合、表示しないようにします。","parameters":{}}
 ];
