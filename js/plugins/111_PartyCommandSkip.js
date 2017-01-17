@@ -17,45 +17,26 @@
  * そのまま戦闘へ。
  * 
  */
-
-
-// 戦闘開始時の戦う・逃げるコマンドのスキップ
-Scene_Battle.prototype.changeInputWindow = function() {
-if (BattleManager.isInputting()) {
-	if (BattleManager.actor()) {
-		this.startActorCommandSelection();
-	} else {
-		//this.startPartyCommandSelection();
-		this.selectNextCommand();
-	}
-} else {
-	this.endCommandSelection();
-}
-};
-
-/*
 (function() {
     var parameters = PluginManager.parameters('111_PartyCommandSkip');
-//    var swicth_number = String(parameters['SwitchNumber'] || '111');
-//    swicth_number = +swicth_number;
+    var swicth_number = String(parameters['SwitchNumber'] || '111');
+    swicth_number = +swicth_number;
 
     Scene_Battle.prototype.changeInputWindow = function() {
         if (BattleManager.isInputting()) {
-//            if($gameSwitches.value(swicth_number)){
+            if($gameSwitches.value(swicth_number)){
                 // 戦う・逃げるの決定飛ばす
                 BattleManager._actorIndex = 0;
                 this.startActorCommandSelection();
- /*           }else
+            }else
                 if (BattleManager.actor()) {
                     this.startActorCommandSelection();
                 } else {
                     this.startPartyCommandSelection();
                 }
-*/
-/*
         } else {
             this.endCommandSelection();
         }
     };
 
-})();*/
+})();
