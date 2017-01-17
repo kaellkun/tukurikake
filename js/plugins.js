@@ -35,7 +35,7 @@ var $plugins =
 {"name":"CounterExtend","status":true,"description":"反撃拡張プラグイン","parameters":{"反撃コスト消費":"OFF","コスト不足で失敗":"OFF"}},
 {"name":"ConditionallyCore","status":true,"description":"ver1.06/条件付き○○のプラグインを使用するのに、必要となる条件をまとめたベースプラグインです。","parameters":{}},
 {"name":"ConditionallyDrop","status":true,"description":"ver1.03/条件を満たすとドロップするアイテムを設定できるようになります。","parameters":{"Display Reward Item Text":"\\c[6]Bonus!","Display Reward Gold Text":"\\c[6]Bonus!","Display Reward Exp Text":"\\c[6]Bonus!"}},
-{"name":"Kath_GameOver","status":true,"description":"Change what happens when the party dies or Game Over is called.","parameters":{"Party Death Common Event ID":"","Show Game Over Scene":"false","Reload Last Save":"false","After Game Over Common Event ID":"14"}},
+{"name":"Kath_GameOver","status":true,"description":"Change what happens when the party dies or Game Over is called.","parameters":{"Party Death Common Event ID":"","Show Game Over Scene":"true","Reload Last Save":"false","After Game Over Common Event ID":"14"}},
 {"name":"StackBattleLog","status":false,"description":"ver1.04/戦闘ログを蓄積型に変更し、戦闘ログを表示するパーティコマンドを追加します。","parameters":{"Stack Log UseLog":"true","Stack Log UseStack":"true","Stack Log Text":"Log","Stack Log Start":"------Start Battle------","Stack Log TurnEnd":"------ %d Turn End------","Stack Log MaxLines":"6","Stack Log FontSize":"24","Stack Log Size":"100"}},
 {"name":"PartyCommandSkip","status":true,"description":"戦闘の戦う・逃げるを飛ばして戦闘へ","parameters":{"SwitchNumber":"1"}}
 ];
